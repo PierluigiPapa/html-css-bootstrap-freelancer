@@ -10,6 +10,19 @@ header {
     height: 10vh;
 }
 
-i  {
+.green {
+    background-color: #1abc9c;
     color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.line {
+    height: 4px;
+    width: 20%;
+    background-color: white;
+    margin-inline: 10px;
+    border-radius: 8px;
 }
