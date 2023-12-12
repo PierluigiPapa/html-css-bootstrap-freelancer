@@ -40,3 +40,10 @@ figure .portfolio {
     width: 300px;
     border-radius: 20px;
 }
+
+.download-1 {
+    border: 1px solid white;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
