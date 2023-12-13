@@ -59,7 +59,7 @@ figure .portfolio {
     border-radius: 10px;
 }
 
-p {
+form {
     color: var(--color1);
 }
 
@@ -110,4 +110,5 @@ footer {
     .download-1 {
         margin-left: -60px;
     }
+
 }
