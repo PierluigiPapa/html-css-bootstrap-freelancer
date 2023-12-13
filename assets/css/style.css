@@ -6,6 +6,10 @@
 
 :root {
     --color1: #2c3e50;
+    --color2: #1abc9c;
+    --color3: black;
+    --color4: white;
+    --color5: #3a546d;
 }
 
 .bg-nav {
@@ -14,12 +18,12 @@
 
 button.navbar-toggler {
     filter: invert(1);
-    border: 1px solid black;
+    border: 1px solid var(--color3);
 }
 
 .green {
-    background-color: #1abc9c;
-    color: white;
+    background-color: var(--color2);
+    color: var(--color4);
 }
 
 figure .avatar {
@@ -30,7 +34,7 @@ figure .avatar {
 .line {
     height: 4px;
     width: 20%;
-    background-color: white;
+    background-color: var(--color4);
     margin-inline: 10px;
     border-radius: 8px;
 }
@@ -38,7 +42,7 @@ figure .avatar {
 .line-1 {
     height: 4px;
     width: 20%;
-    background-color: #2c3e50;
+    background-color: var(--color1);
     margin-inline: 10px;
     border-radius: 8px;
 }
@@ -49,48 +53,50 @@ figure .portfolio {
 }
 
 .download-1 {
-    border: 1px solid white;
+    border: 1px solid var(--color4);
     width: 150px;
     height: 40px;
     border-radius: 10px;
 }
 
 p {
-    color: #2c3e50;
+    color: var(--color1);
 }
 
 .line-message {
     margin-top: 150px;
 }
 
-.send {
-    background-color: #1abc9c;
+.btn-me {
+    background-color: var(--color2);
+    color: var(--color4);
+    border: 1px solid var(--color4);
     width: 80px;
-    height: 40px;
-    color: white;
+    height: 50px;
+    margin-left: 200px;
+    margin-bottom: 40px;
     border-radius: 10px;
-    line-height: 35px;
 }
 
 .gray {
-    background-color: #3a546d;
-    color: white;
+    background-color: var(--color5);
+    color: var(--color4);
 }
 
 .social .fa-brands{
-    border: 1px solid white;
+    border: 1px solid var(--color4);
     border-radius: 40px;
     height: 50px;
     line-height: 50px;
 }
 
 .green-1 {
-    color: #1abc9c;
+    color: var(--color2);
 }
 
 footer {
-    background-color: #2c3e50;
-    color: white;
+    background-color: var(--color1);
+    color: var(--color4);
 }
 
 
